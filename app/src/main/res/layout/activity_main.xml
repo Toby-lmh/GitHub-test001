@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/com.testsf.sf001"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.testsf.sf001.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试跳转微信"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试跳转微信朋友圈"/>
+<com.oushangfeng.marqueelayout.MarqueeLayout
+    android:id="@+id/marquee_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#118866"
+    app:enablealphaanim="true"
+    app:enablescaleanim="false"
+    app:orientation="up">
+
+</com.oushangfeng.marqueelayout.MarqueeLayout>
+
+    <Button
+        android:id="@+id/btn_qq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳转QQ聊天界面"/>
+
+
+</LinearLayout>
