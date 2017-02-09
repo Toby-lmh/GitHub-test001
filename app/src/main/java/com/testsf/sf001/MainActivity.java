@@ -25,7 +25,7 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 
 public class MainActivity extends Activity {
-//测试上传
+//测试上传ddddddd
     //public final static String WEIXIN_SNS_MIMETYPE = "vnd.android.cursor.item/vnd.com.tencent.mm.plugin.sns.timeline";//微信朋友圈
     public int SELECT_PIC_BY_PICK_PHOTO = 00000;
     MarqueeLayout mMarqueeLayout;
